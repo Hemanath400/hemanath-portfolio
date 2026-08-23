@@ -1112,13 +1112,12 @@
 
             <div class="building-card">
                 <h3>Real-Time Rumble Strip Detection & Driver Warning System</h3>
-                <h4>Status: 🚧 In Progress</h4>
-                <h4>Current Progress : Dataset Preparation</h4>
-
+                <h4>Building a computer vision system to detect highway rumble strips before a vehicle reaches them and provide an early warning to the driver.</h4>
+                <h4></h4>
                 <p>
-                    A computer vision system designed to detect rumble strips from a forward-facing vehicle camera and provide an early warning to drivers.
-                    The project focuses on real-world road conditions, varying distances, lighting, road surfaces, and challenging visual environments.
-                </p>
+                    Current progress: Trained an RF-DETR object detection model achieving 90.1% mAP@50 on the validation set and successfully tested it on previously unseen highway footage, 
+                    detecting 3/3 observed rumble-strip events. Built a video inference pipeline with temporal confirmation and an on-screen "Rumble Strip Ahead" warning.
+                    Next: Improve early detection distance, reduce false positives using hard-negative mining, and evaluate the system across more diverse road conditions and camera perspectives.
             </div>
 
             <div class="building-card">
