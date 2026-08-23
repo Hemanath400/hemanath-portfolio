@@ -1811,3 +1811,8 @@ footer p:first-child {
     color:#94a3b8;
 
 }
+.project-card video {
+    width: 100%;
+    border-radius: 12px;
+    margin: 15px 0;
+}
